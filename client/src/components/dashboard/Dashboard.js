@@ -51,6 +51,11 @@ class Dashboard extends Component {
         //User is logged in but has no profile
         dashboardContent = (
           <div>
+            <p className="lead text-muted"> Hello, {user.name}! </p>
+            <p>
+              It looks like you have not created a profile yet, so let's create
+              a profile and get started
+            </p>
             <Link to="/create-profile" className="btn btn-lg btn-info">
               Create Profile
             </Link>
@@ -86,7 +91,6 @@ const mapStateToProps = state => ({
   auth: state.auth
 });
 
-export default connect(
-  mapStateToProps,
-  { getCurrentProfile, deleteAccount }
-)(Dashboard);
+export default connect(mapStateToProps, { getCurrentProfile, deleteAccount })(
+  Dashboard
+);

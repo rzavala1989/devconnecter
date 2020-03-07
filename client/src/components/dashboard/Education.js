@@ -38,8 +38,8 @@ class Education extends Component {
         <table className="table">
           <thead>
             <tr>
-              <th>Company</th>
-              <th>Title</th>
+              <th>School Name</th>
+              <th>Degree</th>
               <th>Years</th>
               <th />
             </tr>
@@ -55,7 +55,4 @@ Education.propTypes = {
   deleteEducation: PropTypes.func.isRequired
 };
 
-export default connect(
-  null,
-  { deleteEducation }
-)(Education);
+export default connect(null, { deleteEducation })(Education);
