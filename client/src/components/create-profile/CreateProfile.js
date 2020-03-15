@@ -124,7 +124,7 @@ class CreateProfile extends Component {
       { label: "Project Manager", value: "Project Manager" },
       { label: "Student", value: "Student" },
       { label: "Data Scientist", value: "Data Scientist" },
-      { label: "Web Design", value: "Web Design" },
+      { label: "Recruiter", value: "Recruiter" },
       { label: "Other", value: "Other" }
     ];
     return (

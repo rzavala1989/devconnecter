@@ -51,3 +51,7 @@ img {
 i.fa-slack-hash:hover {
   color: #ff6699;
 }
+
+.profile-img {
+  background-image: url("img/blue-effect.jpg");
+}
