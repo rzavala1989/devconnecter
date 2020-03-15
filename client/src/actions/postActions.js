@@ -47,7 +47,7 @@ export const getPosts = () => dispatch => {
     );
 };
 
-// Get post
+// Get single post
 export const getPost = id => dispatch => {
   dispatch(setPostLoading());
   axios

@@ -45,3 +45,9 @@ img {
   background-position: 50% 50%;
   background-blend-mode: overlay;
 }
+
+/* Icon hover effect */
+
+i.fa-slack-hash:hover {
+  color: #ff6699;
+}

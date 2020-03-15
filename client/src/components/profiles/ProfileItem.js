@@ -37,7 +37,7 @@ class ProfileItem extends Component {
             <ul className="list-group">
               {profile.skills.slice(0, 4).map((skill, index) => (
                 <li key={index} className="list-group-item">
-                  <i className="fa fa-check pr-2" />
+                  <i className="fab fa-2x fa-slack-hash pr-3" />
                   {skill}
                 </li>
               ))}
