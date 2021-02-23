@@ -17,7 +17,7 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4">ConnectEd</h1>
+                <h1 className="display-3 mb-4">ConnectEd 2021</h1>
                 <p className="lead">
                   {" "}
                   Create a developer portfolio, share knowledge and get help
@@ -40,11 +40,11 @@ class Landing extends Component {
 }
 
 Landing.propTypes = {
-  auth: PropTypes.object.isRequired
+  auth: PropTypes.object.isRequired,
 };
 
-const mapStateToProps = state => ({
-  auth: state.auth
+const mapStateToProps = (state) => ({
+  auth: state.auth,
 });
 
 export default connect(mapStateToProps)(Landing);
